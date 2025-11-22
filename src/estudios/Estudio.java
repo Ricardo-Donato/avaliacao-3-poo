@@ -8,6 +8,12 @@ public class Estudio {
     private String nome;
     private List<Midia> publicacoes;
 
+    public Estudio(int id, String nome, List<Midia> publicacoes) {
+        this.id = id;
+        this.nome = nome;
+        this.publicacoes = publicacoes;
+    }
+
     public int getId() {
         return id;
     }
