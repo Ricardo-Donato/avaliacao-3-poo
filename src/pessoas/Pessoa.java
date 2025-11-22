@@ -6,10 +6,10 @@ public class Pessoa{
     private String email;
    
     public Pessoa(int id, String nome, String email) {
-    this.id = id;
-    this.nome = nome;
-    this.email = email;
-}
+        this.id = id;
+        this.nome = nome;
+        this.email = email;
+    }
 
     public int getId() {
         return id;
