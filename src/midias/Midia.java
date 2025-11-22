@@ -10,6 +10,15 @@ public class Midia {
     private int duracao;
     private List<Integer> avaliacoes;
 
+    public Midia(int id, String titulo, int ano, String genero, int duracao, List<Integer> avaliacoes) {
+        this.id = id;
+        this.titulo = titulo;
+        this.ano = ano;
+        this.genero = genero;
+        this.duracao = duracao;
+        this.avaliacoes = avaliacoes;
+    }
+    
     public int getId() {
         return id;
     }
