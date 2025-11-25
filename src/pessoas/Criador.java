@@ -5,8 +5,7 @@ public class Criador extends Pessoa{
 
     public Criador(int id, String nome, String email, String biografia) {
         super(id, nome, email);
-        this.biografia = biografia;
-        
+        this.biografia = biografia;  
     }
     
     public String getBiografia() {
