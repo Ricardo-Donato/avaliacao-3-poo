@@ -1,6 +1,7 @@
 package midias;
 
 import java.util.List;
+import java.util.ArrayList;
 
 public class Midia {
     private int id;
@@ -10,13 +11,13 @@ public class Midia {
     private int duracao;
     private List<Integer> avaliacoes;
 
-    public Midia(int id, String titulo, int ano, String genero, int duracao, List<Integer> avaliacoes) {
+    public Midia(int id, String titulo, int ano, String genero, int duracao) {
         this.id = id;
         this.titulo = titulo;
         this.ano = ano;
         this.genero = genero;
         this.duracao = duracao;
-        this.avaliacoes = avaliacoes;
+        this.avaliacoes = new ArrayList<>();
     }
     
     public int getId() {

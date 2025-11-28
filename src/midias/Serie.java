@@ -1,6 +1,5 @@
 package midias;
 
-import java.util.List;
 import pessoas.Criador;
 
 public class Serie extends Midia {
@@ -8,8 +7,8 @@ public class Serie extends Midia {
     private int episodios;
     private Criador showrunner;
 
-    public Serie(int id, String titulo, int ano, String genero, int duracao, List<Integer> avaliacoes, int temporadas, int episodios, Criador showrunner) {
-        super(id, titulo, ano, genero, duracao, avaliacoes);
+    public Serie(int id, String titulo, int ano, String genero, int duracao, int temporadas, int episodios, Criador showrunner) {
+        super(id, titulo, ano, genero, duracao);
         this.temporadas = temporadas;
         this.episodios = episodios;
         this.showrunner = showrunner;

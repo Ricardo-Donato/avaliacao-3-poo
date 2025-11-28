@@ -1,14 +1,13 @@
 package midias;
 
-import java.util.List;
 import pessoas.Criador;
 
 public class Documentario extends Midia {
     private String tema;
     private Criador narrador;
 
-    public Documentario(int id, String titulo, int ano, String genero, int duracao, List<Integer> avaliacoes, String tema, Criador narrador) {
-        super(id, titulo, ano, genero, duracao, avaliacoes);
+    public Documentario(int id, String titulo, int ano, String genero, int duracao, String tema, Criador narrador) {
+        super(id, titulo, ano, genero, duracao);
         this.tema = tema;
         this.narrador = narrador;
     }

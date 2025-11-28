@@ -1,6 +1,7 @@
 package estudios;
 
 import java.util.List;
+import java.util.ArrayList;
 import midias.Midia;
 
 public class Estudio {
@@ -8,10 +9,10 @@ public class Estudio {
     private String nome;
     private List<Midia> publicacoes;
 
-    public Estudio(int id, String nome, List<Midia> publicacoes) {
+    public Estudio(int id, String nome) {
         this.id = id;
         this.nome = nome;
-        this.publicacoes = publicacoes;
+        this.publicacoes = new ArrayList<>();
     }
 
     public int getId() {
